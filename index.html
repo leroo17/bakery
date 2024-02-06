@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <script src="./scripts/main.min.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="pre-header">
+      <div class="container">
+        <div class="select">
+          <span class="select__prepend"></span>
+          <select class="select__list">
+            <option class="select__item" disabled selected>Выберите город</option>
+            <option class="select__item" value="Москва">Москва</option>
+            <option class="select__item" value="Санкт-Петербург">Санкт-Петербург</option>
+          </select>
+          <span class="select__append"></span>
+        </div>
+        <div class="phone">
+          <a href="tel:78009999999">8(800)999-99-99</a>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="#" class="header__logo">
+          <img class="header__logo--img" src="./images/icons/logo.svg" alt="Логотип">
+          <h3 class="header__logo--title">Пекарня №7</h3>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__item--link" href="#">О компании</a></li>
+            <li class="nav__item"><a class="nav__item--link" href="#">Продукция</a></li>
+            <li class="nav__item"><a class="nav__item--link" href="#">Доставка</a></li>
+            <li class="nav__item"><a class="nav__item--link" href="#">Торты на заказ</a></li>
+            <li class="nav__item"><a class="nav__item--link" href="#">Акции</a></li>
+            <li class="nav__item"><a class="nav__item--link" href="#">Адреса и контакты</a></li>
+          </ul>
+          <div class="burger-menu">
+            <a href="#" class="burger-btn" id="burger-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <ul class="burger__list displayFlex displayNone" id="burger__list">
+              <li class="burger__item"><a class="burger__item--link" href="#">О компании</a></li>
+              <li class="burger__item"><a class="burger__item--link" href="#">Продукция</a></li>
+              <li class="burger__item"><a class="burger__item--link" href="#">Доставка</a></li>
+              <li class="burger__item"><a class="burger__item--link" href="#">Торты на заказ</a></li>
+              <li class="burger__item"><a class="burger__item--link" href="#">Акции</a></li>
+              <li class="burger__item"><a class="burger__item--link" href="#">Адреса и контакты</a></li>
+            </ul>
+          </div>
+          <div class="header__user">
+            <a href="#" class="header__user--link"><img src="./images/icons/heart.svg" alt="heart" class="header__user--img"></a>
+            <a href="#" class="header__user--link"><img src="./images/icons/basket.svg" alt="basket" class="header__user--img"></a>
+            <a href="#" class="header__user--link"><img src="./images/icons/user.svg" alt="account" class="header__user--img"></a>
+          </div>
+        </nav>
+        </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main-slider">
+      <div class="container">
+        <div class="main-slider-box">
+          <h1 class="main-slider__title">Печь любить радовать</h1>
+          <a class="main-slider__link" href="#">перейти в каталог
+            <svg viewBox="0 0 32 32" id="i-arrow-right" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 6 L30 16 22 26 M30 16 L2 16"></path> </g></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container"></div>
+  </footer>
+</body>
+</html>
